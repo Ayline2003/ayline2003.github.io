@@ -2,7 +2,7 @@
 	width: 1250px;
 	margin-right: auto;
 	margin-left: auto;
-	font-size: 16,5px;
+	font-size: 22px;
 	font-family: Comic Sans MS, arial;
 	
 }
@@ -61,6 +61,12 @@ b {
     padding: 2px;
     margin-right: 3px;
 	text-align: center;
+}
+
+.box {
+	float: left;
+	color: #03bfff;
+	padding: 20px;
 }
 
 footer {
