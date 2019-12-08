@@ -44,6 +44,11 @@ nav li {
 a {
 	color: #850808;
 	text-decoration: none;
+	font-family: sans-serif;
+	text-shadow:  1px  1px 1px black,
+                  1px -1px 1px black,
+                 -1px  1px 1px black,
+                 -1px -1px 1px black;
 }
 
 .article {
