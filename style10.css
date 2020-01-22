@@ -1,0 +1,89 @@
+#wrapper {
+	width: 1250px;
+	margin-right: auto;
+	margin-left: auto;
+	font-size: 16px;
+	font-family: Comic Sans MS, arial;
+	
+}
+
+body {
+
+}
+
+leader {
+	padding-top: 10px;
+	padding-bottom: 10px;
+	height: 50px;
+	text-align: center;
+}
+
+nav {
+	text-align: center;
+}
+
+nav ul {
+	list-style-type: none;
+}
+
+nav li {
+	display: inline;
+	margin-right: 40px;
+}
+
+a {
+	color: #850808;
+	text-decoration: none;
+	font-family: sans-serif;
+	text-shadow:  1px  1px 1px black,
+                  1px -1px 1px black,
+                 -1px  1px 1px black,
+                 -1px -1px 1px black;
+}
+
+p {
+	color: white;
+	text-decoration: none;
+}
+
+b {
+	color: #2bd7dd;
+	text-decoration: none;
+	font-family: sans-serif;
+	text-shadow:  1px  1px 1px black,
+                  1px -1px 1px black,
+                 -1px  1px 1px black,
+                 -1px -1px 1px black;
+}
+
+.article {
+	height: 120px;
+	margin-top: 15px;
+	margin-bottom: 50px;
+}
+
+.article a {
+	font-size: 18px;
+}
+
+.article img {
+    float: left;
+    padding: 2px;
+    margin-right: 3px;
+	text-align: center;
+}
+
+footer {
+	position:absolute;
+    bottom: 0;
+    width: 50%;
+}
+
+html {
+background: url(bilder/mel1.gif)no-repeat center center fixed;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+background-attachment: fixed;
+}
