@@ -61,6 +61,34 @@ b {
                  -1px -1px 1px black;
 }
 
+s {
+	color: #ff84a7;
+	text-decoration: none;
+	font-family: sans-serif;
+	text-shadow:  1px  1px 1px black,
+                  1px -1px 1px black,
+                 -1px  1px 1px black,
+                 -1px -1px 1px black;
+}
+
+h1 {
+	color: white;
+	text-shadow:  1px  1px 1px black,
+                  1px -1px 1px black,
+                 -1px  1px 1px black,
+                 -1px -1px 1px black;
+}
+
+.box {
+	 float: right;
+	 width: 33.3%;
+	 color: #00ffff;
+	 text-shadow:  1px  1px 1px black,
+                  1px -1px 1px black,
+                 -1px  1px 1px black,
+                 -1px -1px 1px black;	 
+}
+
 .article {
 	height: 120px;
 	margin-top: 15px;
@@ -85,7 +113,7 @@ footer {
 }
 
 html {
-background: url(bilder/rainbow.png)no-repeat center center fixed;
+background: url(bilder/dragon4.jpg)no-repeat center center fixed;
 -webkit-background-size: cover;
 -moz-background-size: cover;
 -o-background-size: cover;
