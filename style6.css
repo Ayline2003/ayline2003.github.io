@@ -61,6 +61,13 @@ b {
                  -1px -1px 1px black;
 }
 
+.video {	
+	float: right;
+	padding: 2px;
+    	margin-right: 3px;
+	text-align: center;
+}
+
 .article {
 	height: 120px;
 	margin-top: 15px;
