@@ -58,9 +58,10 @@ a {
 }
 
 footer {
-	position:absolute;
+	position: relative;
     bottom: 0;
-    width: 50%;
+    width: 100%;
+	margin-top: auto;
 }
 
 html {

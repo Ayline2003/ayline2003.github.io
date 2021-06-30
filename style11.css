@@ -3,8 +3,7 @@
 	margin-right: auto;
 	margin-left: auto;
 	font-size: 16px;
-	font-family: Comic Sans MS, arial;
-	
+	font-family: Comic Sans MS, arial;	
 }
 
 body {
@@ -32,7 +31,7 @@ nav li {
 }
 
 a {
-	color: #850808;
+	color: #2bd7dd;
 	text-decoration: none;
 	font-family: sans-serif;
 	text-shadow:  1px  1px 1px black,
@@ -42,7 +41,8 @@ a {
 }
 
 p {
-	color: white;
+	color:lightgray;
+	font-size: 18px;
 	text-decoration: none;
 	font-family: sans-serif;
 	text-shadow:  1px  1px 1px black,
@@ -52,7 +52,8 @@ p {
 }
 
 b {
-	color: #2bd7dd;
+	color: #850808;
+	font-size: 25px;
 	text-decoration: none;
 	font-family: sans-serif;
 	text-shadow:  1px  1px 1px black,
@@ -65,28 +66,29 @@ s {
 	color: #ff84a7;
 	text-decoration: none;
 	font-family: sans-serif;
+	position: absolute;
+ 	bottom: 15px;
+  	right: 8px;
+  	font-size: 30px;
 	text-shadow:  1px  1px 1px black,
                   1px -1px 1px black,
                  -1px  1px 1px black,
                  -1px -1px 1px black;
+}
+
+y {
+	font-size: 25px;
 }
 
 h1 {
-	color: white;
+	float: left;
+	padding-left: 125px;
+	color: lightgray;
+	font-size: 20px;
 	text-shadow:  1px  1px 1px black,
                   1px -1px 1px black,
                  -1px  1px 1px black,
                  -1px -1px 1px black;
-}
-
-.box {
-	 float: right;
-	 width: 33.3%;
-	 color: #00ffff;
-	 text-shadow:  1px  1px 1px black,
-                  1px -1px 1px black,
-                 -1px  1px 1px black,
-                 -1px -1px 1px black;	 
 }
 
 .article {
@@ -107,13 +109,109 @@ h1 {
 }
 
 footer {
-	position:absolute;
+	position: relative;
     bottom: 0;
-    width: 50%;
+    width: 100%;
+	margin-top: auto;
+}
+
+.fishes
+{
+  position: absolute;
+  top: 10px;
+  left: 0px;
+}
+.fish
+{
+  position: absolute;
+  top: 5px;
+  left: 800px;
+}
+
+.container {
+	position: relative;
+	text-align: center;
+	color: white;
+}
+
+.imageContainer { 
+	height: 180px; 
+	background: url(bilder/test5.png) no-repeat;
+}
+
+.bottom-left {
+	position: absolute;
+	bottom: 8px;
+	left: 0px;
+	display: inline;
+	margin-left: 40px;
+	float: left;
+	margin-right: 40px;
+}
+
+.logo {
+	float: right;
+  	padding: 5px;
+  	width: 100px;	
+}
+
+.rechts {
+	float: left;
+	margin-right: 15px;
+	margin-top: 25px;
+}
+
+.form-elements {
+	padding: 0.3em 1em;
+    border-radius: 3px;
+    color:white;
+    margin-bottom: 2em;	
+	margin-left: 930px;
+	text-shadow:  1px  1px 1px black,
+                  1px -1px 1px black,
+                 -1px  1px 1px black,
+                 -1px -1px 1px black;
+}
+
+.box {
+	float: left;
+	padding-left: 125px;
+	color: lightgray;
+	font-size: 20px;
+	text-shadow:  1px  1px 1px black,
+                  1px -1px 1px black,
+                 -1px  1px 1px black,
+                 -1px -1px 1px black;
+}
+
+.text {	
+	float: left;
+	padding-left: 125px;
+	color: white;
+	font-size: 18px;
+	text-decoration: none;
+	font-family: sans-serif;
+	text-shadow:  1px  1px 1px black,
+                  1px -1px 1px black,
+                 -1px  1px 1px black,
+                 -1px -1px 1px black;
+}
+
+.thankyou_message {
+	padding: 0.3em 1em;
+    border-radius: 3px;
+    color: #fff;
+    margin-bottom: 2em;	
+	margin-left: 930px;
+	font-size: 50px;
+}
+
+.pure-group {
+	color: black;
 }
 
 html {
-background: url(bilder/dragon4.jpg)no-repeat center center fixed;
+background: url(bilder/test5.jpg)no-repeat center center fixed;
 -webkit-background-size: cover;
 -moz-background-size: cover;
 -o-background-size: cover;
